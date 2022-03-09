@@ -6,73 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Mobile-First praktika</title>
+    <title>Nftlanding</title>
 </head>
 <body>
     
-    <div class="my-container">
-
-        <div class="header">
-            <img class="logo" src="https://www.reviewpro.com/wp-content/uploads/2019/06/Google-logo.jpg" alt="Google logo">
-            <p class="responsive">This is a responsive site designed and coded by web beginner.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi possimus harum quis praesentium officia veniam iure sapiente illum officiis optio id dolorum aliquam expedita sint iste, soluta libero exercitationem tenetur.</p>
+    <header class="top-nav">
+        <div class="top-logo">
+            <img src="assets/logo.svg" alt="nftlanding logotipas">
         </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Launch</a></li>
+            <li class="sign-up"><a href="#">Sign Up</a></li>
+        </ul>
+    </header>
 
+    <main class="container1">
+        <div class="container1-sec1">
+            <h2>LAUNCHING SOON</h2>
+            <h1>An NFT like no other</h1>
+            <p class="container1-p">Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live. </p>
+        </div>
+        <div class="container1-sec2">
+            <img src="assets/graphic.svg" alt="Grafinis paveiksliukas">
+        </div>
+    </main>
+
+    <main class="container2">
+        <button class="container-button" type="submit">Sing Up</button>
+    </main>
+
+    <main class="container3">
+        <div class="container3-text">
+            <h1>Free NFT for early birds<br><span>Sign up today and you'll get a free NFT when we launch</span></h1>
+        </div>
+    </main>
+
+    <main class="container4">
+        <ul>
+            <li class="company1"><img src="assets/companies/1.svg" alt="Boomerang logo"></li>
+            <li class="company2"><img src="assets/companies/2.svg" alt="Brilm logo"></li>
+            <li class="company3"><img src="assets/companies/3.svg" alt="qrco logo"></li>
+            <li class="company4"><img src="assets/companies/5.svg" alt="Droplet logo"></li>
+        </ul>
+    </main>
+
+    <main class="container5">
+        <h1>LE Super Rare Auction</h1>
+        <h2>We have released four limited edition NFTs early which can be bid on via <a href="#">OpenSea</a></h2>
+    </main>
+
+    <main class="container6">
         <div class="card-row">
 
-            <div class="card card1">
-                <img class="my-img" src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="PC img">
-                <a class="read" href="#"><p class="my-p">MAGNA</p></a>
-                <a class="hide" href="#"><p class="my-p">MAGNA <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p></a>
+            <div class="card">
+                <img class="my-img" src="assets/ntfs/ntf-1.svg" alt="Purple man image">
+                <ul>
+                    <li class="gloop">GLOOP SERIES</li>
+                    <li class="top-bid">TOP BID</li>
+                    <li class="man-icon">Purple Man</li>
+                    <li class="eth"><img src="assets/eth.svg" alt="eth icon">2.99 ETH</li>
+                    <li class="hashtag">#12983</li>
+                    <li class="days-left">1 day left</li>
+                </ul>
             </div>
 
-            <div class="card card2">
-                <img class="my-img" src="https://images.unsplash.com/photo-1504280645497-00afe6a47e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmllbGR8ZW58MHx8MHx8&w=1000&q=80" alt="Field img">
-                <a class="read" href="#"><p class="my-p">ULRICIES</p></a>
-                <a class="hide" href="#"><p class="my-p">ULRICIES <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p></a>
+            <div class="card">
+                <img class="my-img" src="assets/ntfs/nft-2.svg" alt="Beige man image">
+                <ul>
+                    <li class="gloop">GLOOP SERIES</li>
+                    <li class="top-bid">TOP BID</li>
+                    <li class="man-icon">Beige</li>
+                    <li class="eth"><img src="assets/eth.svg" alt="eth icon">2.99 ETH</li>
+                    <li class="hashtag">#12983</li>
+                    <li class="days-left">1 day left</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img class="my-img" src="assets/ntfs/ntf-3.svg" alt="Red man image">
+                <ul>
+                    <li class="gloop">GLOOP SERIES</li>
+                    <li class="top-bid">TOP BID</li>
+                    <li class="man-icon">Red Man</li>
+                    <li class="eth"><img src="assets/eth.svg" alt="eth icon">2.99 ETH</li>
+                    <li class="hashtag">#12983</li>
+                    <li class="days-left">1 day left</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img class="my-img" src="assets/ntfs/ntf-4.svg" alt="Green man image">
+                <ul>
+                    <li class="gloop">GLOOP SERIES</li>
+                    <li class="top-bid">TOP BID</li>
+                    <li class="man-icon">Green</li>
+                    <li class="eth"><img src="assets/eth.svg" alt="eth icon">2.99 ETH</li>
+                    <li class="hashtag">#12983</li>
+                    <li class="days-left">1 day left</li>
+                </ul>
             </div>
 
-            <div class="card card3">
-                <img class="my-img" src="https://images.unsplash.com/photo-1438109491414-7198515b166b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybCUyMHdpdGglMjBjYW1lcmF8ZW58MHx8MHx8&w=1000&q=80" alt="Girl with camera">
-                <a class="read" href="#"><p class="my-p">DICTUM</p></a>
-                <a class="hide" href="#"><p class="my-p">DICTUM <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p></a>
-            </div>
-
-            <div class="card card4">
-                <img class="my-img" src="https://image.shutterstock.com/image-photo/man-sitting-on-rock-watching-260nw-1097393525.jpg" alt="Man near the sea">
-                <a class="read" href="#"><p class="my-p">PRETIUM</p></a>
-                <a class="hide" href="#"><p class="my-p">PRETIUM <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p></a>
-            </div>
 
         </div>
+    
+    </main>
 
-        <div class="contacts">
-
-            <div class="follow">
-            <h1>FOLLOW</h1>
-            <div class="paveiksliukas"><img src="https://icon-library.com/images/facebook-icon-for-resume/facebook-icon-for-resume-17.jpg" alt="All possible icons"></div>
-            </div>
-
-            <div class="getintouch" >
-            <h1>GET IN TOUCH</h1>
-            <div class="contact-card">
-                <form action="register.php" method="post">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" minlength="3" maxlength="20" required>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" eequired>
-                    <label for="message">Message</label>
-                    <input type="text" name="message" minlength="3" maxlength="50">
-                    <input class="send" type="submit" value="SEND">
-                </form>
-            </div>
-            </div>
-
+    <main class="container7">
+        <div class="container1-sec1">
+            <h2>LAUNCHING SOON</h2>
+            <h1>An NFT like no other</h1>
+            <p class="container1-p">Don’t miss out on the release of our new NFT. Sign up below to receive updates. </p>
+            <button class="container-button" type="submit">Sing Up</button>
         </div>
+        <div class="container7-sec2">
+            <img src="assets/upsell-footer-image.svg" alt="Green man image">
+        </div>
+    </main>
 
-        <footer>&copy Untitled. All rights reserved</footer>
-
-    </div>
+    <main class="container8">
+        <div class="container8-sec1">
+            <img src="assets/logo.svg" alt="nftlanding logotipas">
+            <h2>Exclusive NFT Collection</h2>
+        </div>
+        <div class="container8-sec2">
+                <ul>
+                    <li class="fb"><img src="icons/facebook.svg" alt="eth icon"></li>
+                    <li class="twitter"><img src="icons/twitter.svg" alt="eth icon"></li>
+                    <li class="instagram"><img src="icons/instagram.svg" alt="eth icon"></li>
+                    <li class="tiktok"><img src="icons/tiktok.svg" alt="eth icon"></li>
+                </ul>
+        </div>
+    </main>
 
 
 </body>
