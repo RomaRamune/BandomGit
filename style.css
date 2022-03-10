@@ -775,6 +775,7 @@ div.card-row {
 .container7{
     display: grid;
     grid-template-columns: 75% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
     border-top: 2px solid rgb(211, 210, 210);
     border-bottom: 2px solid rgb(211, 210, 210);
     margin: 0;
@@ -784,19 +785,26 @@ div.card-row {
 
 .container7 .container1-sec1 h2{
     margin-top: 2rem;
+    grid-row: 1;
 }
 
 .container7 .container1-sec1 h1{
-    border-bottom: 2px solid rgb(211, 210, 210);
+    border-bottom: hide;
     height: 90%;
     margin-bottom: 1rem;
     width: 80%;
+    grid-row: 2;
 }
 
 .container7 .container1-sec1 p{
     height: 90%;
     margin-top: 0;
     width: 70%;
+    grid-row: 3;
+}
+
+.container7 .container2{
+    grid-row: 4;
 }
 
 .container1-sec1{
