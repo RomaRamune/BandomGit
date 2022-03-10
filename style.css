@@ -117,19 +117,17 @@ html, body{
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 70% 30%;
     height: 19rem;    
-    background-color: yellow;
     max-width: 600px;
-    padding-left: 1.5rem;
 }
 
 .container1-sec1{
     grid-column:1;
     display: grid;
+    padding-left: 1.5rem;
 }
 
 .container1-sec2{
     grid-column:2;
-    padding-left: 15%;
 }
 
 .container1-sec1 h2{
@@ -173,21 +171,18 @@ html, body{
     font-weight: 800;
     text-align: center;    
     color: #111111;
-    /* border: 2px solid #FF8139; */
     background-color: white;
-    /* border-radius: inherit; */
     padding: 1rem 2rem;
     cursor: pointer;
-    border: 3px solid; 
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #dee763, #FF8139, #da542c);
-    border-radius: 10rem;
+    border-radius: 40px;
+    border: 2px solid #da542c;
 }
 
 .container2 {
-    background-color: #FF3998;
     max-width: 600px;
-    height: 15%;
+    height: 10%;
     padding: 1.5rem;
 }
 
@@ -218,13 +213,9 @@ html, body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -40%);
     color: #111111;
-    width: 60%;
-}
-
-.container4{
-    background-color: aquamarine;
+    width: 70%;
 }
 
 .container4 ul{
@@ -237,17 +228,22 @@ html, body{
     padding: 1rem;
     list-style: none;
     text-align: rigth;
-    padding-left: 2rem;
+    padding-left: 0;
+}
+
+.company1{
+    background: no-repeat;
+    width: 7.5rem;
+    overflow: hidden;
 }
 
 .container5{
-    background-color: #dee763;
     padding-left: 2rem;
     margin: 0;
 }
 
 .container5 h1{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
     width: 70%;
     margin: 0;
@@ -257,7 +253,7 @@ html, body{
     color: #555555;
     width: 70%;
     height: 80px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
 }
 
@@ -265,19 +261,27 @@ html, body{
     color: #555555;
 }
 
-.card-row{
-    display: grid;
-    grid-template-columns: 75% 55%;
+.card-row div{
+    display: inline-block;
 }
 
 .card{
     background-color: rgb(230, 230, 230);
     border-radius: 20px;
-    display: inline-block;
+    display: block;
     margin: 1rem 1rem;
-    max-width: 268px;
+    max-width: 290px;
     min-height: 268px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.card-row {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
 }
 
 .my-img{
@@ -349,6 +353,7 @@ html, body{
     border-bottom: 2px solid rgb(211, 210, 210);
     margin: 0;
     padding-left: 1rem;
+    padding-top: 2rem;
 }
 
 .container7 .container1-sec1 h2{
@@ -381,6 +386,81 @@ html, body{
     border-image-slice: 1;
     /* border-image-source: linear-gradient(to left, #dee763, #FF8139, #da542c); */
     border-radius: 10rem;
+    height: 3.6rem;
+}
+
+.container1-sec1{
+    padding-bottom: 2rem;
+}
+
+.container7-sec2{
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.container8{
+    display: block;
+    padding-left: 1.5rem;
+}
+
+.container8-sec1 img{
+    height: 2rem;
+    padding-top: 2rem;
+}
+
+.container8-sec1 h2{
+    font-size: 20px;
+    color: #555555;
+}
+
+.container8-sec2 li{
+    display: inline-block;
+    list-style: none;
+}
+
+.container8-sec2 ul{
+    padding-left: 0;
+}
+
+.container9{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.container9{
+    padding-left: 1.5rem;
+}
+
+.container9 div li{
+    list-style: none;
+}
+
+.container9 div li a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 16px;
+}
+
+.container9 li:nth-child(2), .container9 li:nth-child(3){
+    padding-bottom: 0.5rem;
+}
+
+.container9-header{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer{
+    color: #999999;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 @media only screen and (min-width:600px){
